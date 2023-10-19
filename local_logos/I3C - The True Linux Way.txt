@@ -1,0 +1,21 @@
+// Baruch Siach baruch@tkos.co.il GPIO, SPI and I2C from Userspace, the True Linux Way
+# include "i2c -dev.h"
+3
+4 int val ;
+5 uint8_t val8 = 0 xaa ;
+6 uint16_t val16 = 5555;
+7
+8 /* set slave address to 0 x44 */
+9 ioctl ( fd , I2C_SLAVE , 0 x44 );
+10
+11 /* read byte (8 bit) value from register 0 x0a */
+12 val = i2c_smbus_read_byte_data ( fd , 0 x0a );
+13
+14 /* read word (16 bit) value from register 0 x1a */
+15 val = i2c_smbus_read_word_data ( fd , 0 x1a );
+16
+17 /* write byte (8 bit) value in register 0 x2a */
+18 val = i2c_smbus_write_byte_data ( fd , 0 x0a , val8 );
+19
+20 /* write word (16 bit) value in register 0 x3a */
+21 val = i2c_smbus_write_word_data ( fd , 0 x1a , val16 );

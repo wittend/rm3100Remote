@@ -1,0 +1,28 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2, C4, C5, C6, C7, C8",0603,7,0.1uf,C913909
+C10,0603,1,1.0uf,C525329
+C11,0603,1,2.2uf,C2835569
+C3,0603,1,1000pf,C1856398
+C9,0603,1,10uf,C182375
+D1,0603,1,1N4148,C2910101
+F1,0805,1,LittleFuse  2920L125,C192524
+FB1,0805,1,Ferrite,C79865
+J3,PinHeader_1x03_P2.54mm_Vertical,1,A0,DNP
+J4,PinHeader_1x09_P2.54mm_Vertical,1,Test Points,DNP
+J6,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,1,JST-SH4 Qwiic,C5223639
+JP1,SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm,1,Jumper_2_Bridged,
+JP10,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,1,SJ_0pen,
+JP2,SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm,1,A1,
+JP3,SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm,1,A2,
+JP4,SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm,1,SA0,
+JP5,SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm,1,SA1,
+"JP6, JP7",SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,2,sj2,
+"JP8, JP9",SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm,2,sj2,
+"R1, R3, R4, R6",0603,4,390,C2907159
+"R10, R11",0603,2,4.7k,C304485
+"R12, R13, R7, R8, R9",0603,5,10k,C25804
+"R2, R5",0603,2,100,C2838670
+U1,MSOP-8_3x3mm_P0.65mm,1,MCP9808_MSOP,C94847
+U2,TSSOP-10_3x3mm_P0.5mm,1,PCA9615DPJ,C2652385
+U3,PinSocket_PNI_RM3100,1,PNI-RM3100mag,
+U5,SOT95P280X145-3N,1,AP2210N-3.0,C500771

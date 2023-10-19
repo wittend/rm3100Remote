@@ -1,0 +1,1854 @@
+(export 
+  (version D) 
+  (design 
+    (source /home/dave/Projects/SWx/Hardware/rm3100_Pi_Hat_remote_minimal/rm3100_Pi_Hat_remote_minimal.sch) 
+    (date "Tue 01 Sep 2020 10:27:25 AM CDT") 
+    (tool "Eeschema 5.1.5-52549c5~84~ubuntu18.04.1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title RasPiHatRemote) 
+        (company "WWR Development, LLC") 
+        (rev 0) 
+        (date 2020-08-30) 
+        (source rm3100Remote.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref MK1) 
+      (value M2.5) 
+      (footprint MountingHole:MountingHole_2.5mm) 
+      (libsource 
+        (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+        (part Mounting_Hole-Mechanical-rm3100_Pi_Hat_local-rescue) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5834FB2E)) 
+    (comp 
+      (ref MK2) 
+      (value M2.5) 
+      (footprint MountingHole:MountingHole_2.5mm) 
+      (libsource 
+        (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+        (part Mounting_Hole-Mechanical-rm3100_Pi_Hat_local-rescue) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5834FC19)) 
+    (comp 
+      (ref U2) 
+      (value PCA9615DPJ) 
+      (footprint Base_Folder:TSSOP-10_3x3mm_P0.5mm) 
+      (libsource 
+        (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+        (part PCA9615DPJ-Interface) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F23874F)) 
+    (comp 
+      (ref F1) 
+      (value Polyfuse) 
+      (footprint Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Polyfuse_Small) 
+        (description "Resettable fuse, polymeric positive temperature coefficient, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F2B97CB)) 
+    (comp 
+      (ref C3) 
+      (value 1000pf) 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F296731)) 
+    (comp 
+      (ref C2) 
+      (value 0.1uf) 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F295BC4)) 
+    (comp 
+      (ref J1) 
+      (value RJ45_Shielded) 
+      (footprint Connector_RJ:RJ45_Amphenol_RJHSE5380) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part RJ45_Shielded) 
+        (description "RJ connector, 8P8C (8 positions 8 connected), Shielded")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F4A6BD9)) 
+    (comp 
+      (ref FB1) 
+      (value Ferrite) 
+      (footprint Digikey_Footprints:0805) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Ferrite_Bead_Small) 
+        (description "Ferrite bead, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F2EE23E)) 
+    (comp 
+      (ref D1) 
+      (value 1N4148) 
+      (footprint Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf) 
+      (libsource 
+        (lib Diode) 
+        (part 1N4148) 
+        (description "100V 0.15A standard switching diode, DO-35")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F31DF18)) 
+    (comp 
+      (ref C1) 
+      (value "0.1 uf") 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F368A37)) 
+    (comp 
+      (ref R4) 
+      (value 390) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_US) 
+        (description "Resistor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F57784B)) 
+    (comp 
+      (ref R1) 
+      (value 390) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_US) 
+        (description "Resistor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F57A3BE)) 
+    (comp 
+      (ref R2) 
+      (value 100) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_US) 
+        (description "Resistor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F57D0C3)) 
+    (comp 
+      (ref R3) 
+      (value 390) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_US) 
+        (description "Resistor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F57DD16)) 
+    (comp 
+      (ref R5) 
+      (value 100) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_US) 
+        (description "Resistor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F57F0BD)) 
+    (comp 
+      (ref R6) 
+      (value 390) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_US) 
+        (description "Resistor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F57FB43)) 
+    (comp 
+      (ref R7) 
+      (value 10k) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_US) 
+        (description "Resistor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F582265)) 
+    (comp 
+      (ref J6) 
+      (value "JST-SH4 Qwiic") 
+      (footprint Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x04) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F82C407)) 
+    (comp 
+      (ref C4) 
+      (value 0.1uf) 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F82D39D)) 
+    (comp 
+      (ref C5) 
+      (value 0.1uf) 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F82F547)) 
+    (comp 
+      (ref C6) 
+      (value 0.1uf) 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F82FAD2)) 
+    (comp 
+      (ref C7) 
+      (value 0.1uf) 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F830317)) 
+    (comp 
+      (ref J3) 
+      (value A0) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F5D1FA8)) 
+    (comp 
+      (ref R10) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small_US) 
+        (description "Resistor, small US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F42CE72)) 
+    (comp 
+      (ref R11) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small_US) 
+        (description "Resistor, small US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F4400EE)) 
+    (comp 
+      (ref JP1) 
+      (value "I2C PullUps") 
+      (footprint Base_Folder:SolderJumper-3_P1.3mm_Bridged123_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+        (part SolderJumper_3_Bridged123-Jumper) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F49DB84)) 
+    (comp 
+      (ref R8) 
+      (value 10k) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_US) 
+        (description "Resistor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F557807)) 
+    (comp 
+      (ref JP2) 
+      (value A1) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+        (part SolderJumper_2_Bridged-Jumper) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F712764)) 
+    (comp 
+      (ref JP3) 
+      (value A2) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+        (part SolderJumper_2_Bridged-Jumper) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F748A0A)) 
+    (comp 
+      (ref U1) 
+      (value MCP9808_MSOP) 
+      (footprint Package_SO:MSOP-8_3x3mm_P0.65mm) 
+      (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf) 
+      (libsource 
+        (lib Sensor_Temp_Lib) 
+        (part MCP9808_MSOP) 
+        (description "Microchip Technology Digital Temperature Sensor MSOP")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F76BDD1)) 
+    (comp 
+      (ref U3) 
+      (value PNI-RM3100mag) 
+      (footprint Base_Folder:PinSocket_PNI_RM3100) 
+      (libsource 
+        (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+        (part PNI-RM3100mag-Interface) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F79FE04)) 
+    (comp 
+      (ref JP5) 
+      (value SA1) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+        (part SolderJumper_2_Bridged-Jumper) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F7F6D8A)) 
+    (comp 
+      (ref JP4) 
+      (value SA0) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+        (part SolderJumper_2_Bridged-Jumper) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8373C5)) 
+    (comp 
+      (ref R12) 
+      (value 10k) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_US) 
+        (description "Resistor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F863183)) 
+    (comp 
+      (ref R13) 
+      (value 10k) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_US) 
+        (description "Resistor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F882618)) 
+    (comp 
+      (ref MK3) 
+      (value M2.5) 
+      (footprint MountingHole:MountingHole_2.5mm) 
+      (libsource 
+        (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+        (part Mounting_Hole-Mechanical-rm3100_Pi_Hat_local-rescue) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FAD7343)) 
+    (comp 
+      (ref MK4) 
+      (value M2.5) 
+      (footprint MountingHole:MountingHole_2.5mm) 
+      (libsource 
+        (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+        (part Mounting_Hole-Mechanical-rm3100_Pi_Hat_local-rescue) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FAD734D)) 
+    (comp 
+      (ref R9) 
+      (value 10k) 
+      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_US) 
+        (description "Resistor, US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F563BA4)) 
+    (comp 
+      (ref U4) 
+      (value LM1117-3.3) 
+      (footprint Package_TO_SOT_SMD:SOT-223-3_TabPin2) 
+      (datasheet http://www.ti.com/lit/ds/symlink/lm1117.pdf) 
+      (libsource 
+        (lib Regulator_Linear) 
+        (part LM1117-3.3) 
+        (description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F4C6DBE)) 
+    (comp 
+      (ref C8) 
+      (value 0.1uf) 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F4DA9A3)) 
+    (comp 
+      (ref C9) 
+      (value 10uf) 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F4DB1B9)) 
+    (comp 
+      (ref C10) 
+      (value 1.0uf) 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F5E65E6)) 
+    (comp 
+      (ref C11) 
+      (value 2.2uf) 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F5E65F0)) 
+    (comp 
+      (ref U5) 
+      (value AP2210N-3.0TRG1) 
+      (footprint Base_Folder:SOT95P280X145-3N) 
+      (datasheet https://www.diodes.com/assets/Datasheets/AP2210.pdf) 
+      (libsource 
+        (lib AP2210N-3.0TRG1) 
+        (part AP2210N-3.0TRG1) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F60DD19)) 
+    (comp 
+      (ref J4) 
+      (value "Test Points") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x09) 
+        (description "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F5F5145)) 
+    (comp 
+      (ref JP7) 
+      (value sj2) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F69EFA0)) 
+    (comp 
+      (ref JP6) 
+      (value sj2) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F72F5AA)) 
+    (comp 
+      (ref JP8) 
+      (value sj2) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Bridged) 
+        (description "Solder Jumper, 2-pole, closed/bridged")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F7F5720)) 
+    (comp 
+      (ref JP9) 
+      (value sj2) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Bridged) 
+        (description "Solder Jumper, 2-pole, closed/bridged")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F85F087)) 
+    (comp 
+      (ref JP10) 
+      (value SJ_0pen) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F966FC5))) 
+  (libparts 
+    (libpart 
+      (lib AP2210N-3.0TRG1) 
+      (part AP2210N-3.0TRG1) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) AP2210N-3.0TRG1) 
+        (field 
+          (name Footprint) SOT95P280X145-3N) 
+        (field 
+          (name Datasheet) "Diodes Inc")) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name VOUT) 
+          (type output)) 
+        (pin 
+          (num 3) 
+          (name VIN) 
+          (type input)))) 
+    (libpart 
+      (lib Connector) 
+      (part 8P8C_Shielded) 
+      (aliases 
+        (alias RJ31_Shielded) 
+        (alias RJ32_Shielded) 
+        (alias RJ33_Shielded) 
+        (alias RJ34_Shielded) 
+        (alias RJ35_Shielded) 
+        (alias RJ41_Shielded) 
+        (alias RJ45_Shielded) 
+        (alias RJ49_Shielded) 
+        (alias RJ61_Shielded)) 
+      (description "RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded") 
+      (docs ~) 
+      (footprints 
+        (fp 8P8C*) 
+        (fp RJ31*) 
+        (fp RJ32*) 
+        (fp RJ33*) 
+        (fp RJ34*) 
+        (fp RJ35*) 
+        (fp RJ41*) 
+        (fp RJ45*) 
+        (fp RJ49*) 
+        (fp RJ61*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) 8P8C_Shielded)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num SH) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x03) 
+      (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x03)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x04) 
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x09) 
+      (description "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x09)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name Pin_7) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name Pin_8) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name Pin_9) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part C_Small) 
+      (description "Unpolarized capacitor, small symbol") 
+      (docs ~) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C_Small)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part Ferrite_Bead_Small) 
+      (description "Ferrite bead, small symbol") 
+      (docs ~) 
+      (footprints 
+        (fp Inductor_*) 
+        (fp L_*) 
+        (fp *Ferrite*)) 
+      (fields 
+        (field 
+          (name Reference) FB) 
+        (field 
+          (name Value) Ferrite_Bead_Small)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part Polyfuse_Small) 
+      (description "Resettable fuse, polymeric positive temperature coefficient, small symbol") 
+      (docs ~) 
+      (footprints 
+        (fp *polyfuse*) 
+        (fp *PTC*)) 
+      (fields 
+        (field 
+          (name Reference) F) 
+        (field 
+          (name Value) Polyfuse_Small)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R_Small_US) 
+      (description "Resistor, small US symbol") 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R_Small_US)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R_US) 
+      (description "Resistor, US symbol") 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R_US)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Diode) 
+      (part 1N4148) 
+      (aliases 
+        (alias 1N4448) 
+        (alias 1N4149) 
+        (alias 1N4151) 
+        (alias 1N914) 
+        (alias BA243) 
+        (alias BA244) 
+        (alias BA282) 
+        (alias BA283) 
+        (alias BAV17) 
+        (alias BAV18) 
+        (alias BAV19) 
+        (alias BAV20) 
+        (alias BAV21) 
+        (alias BAW75) 
+        (alias BAW76) 
+        (alias BAY93)) 
+      (description "100V 0.15A standard switching diode, DO-35") 
+      (docs https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf) 
+      (footprints 
+        (fp D*DO?35*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) 1N4148) 
+        (field 
+          (name Footprint) Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Jumper) 
+      (part SolderJumper_2_Bridged) 
+      (description "Solder Jumper, 2-pole, closed/bridged") 
+      (docs ~) 
+      (footprints 
+        (fp SolderJumper*Bridged*)) 
+      (fields 
+        (field 
+          (name Reference) JP) 
+        (field 
+          (name Value) SolderJumper_2_Bridged)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name B) 
+          (type passive)))) 
+    (libpart 
+      (lib Jumper) 
+      (part SolderJumper_2_Open) 
+      (description "Solder Jumper, 2-pole, open") 
+      (docs ~) 
+      (footprints 
+        (fp SolderJumper*Open*)) 
+      (fields 
+        (field 
+          (name Reference) JP) 
+        (field 
+          (name Value) SolderJumper_2_Open)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name B) 
+          (type passive)))) 
+    (libpart 
+      (lib Regulator_Linear) 
+      (part LM1117-1.8) 
+      (aliases 
+        (alias LM1117-2.5) 
+        (alias LM1117-3.3) 
+        (alias LM1117-5.0) 
+        (alias TLV1117-15) 
+        (alias TLV1117-18) 
+        (alias TLV1117-25) 
+        (alias TLV1117-33) 
+        (alias TLV1117-50)) 
+      (description "800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223") 
+      (docs http://www.ti.com/lit/ds/symlink/lm1117.pdf) 
+      (footprints 
+        (fp SOT?223*) 
+        (fp TO?263*) 
+        (fp TO?252*) 
+        (fp TO?220*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) LM1117-1.8)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name VO) 
+          (type power_out)) 
+        (pin 
+          (num 3) 
+          (name VI) 
+          (type power_in)))) 
+    (libpart 
+      (lib Sensor_Temp_Lib) 
+      (part MCP9808_MSOP) 
+      (description "Microchip Technology Digital Temperature Sensor MSOP") 
+      (docs http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf) 
+      (footprints 
+        (fp MSOP*3x3mm*P0.65mm*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) MCP9808_MSOP) 
+        (field 
+          (name Footprint) Package_SO:MSOP-8_3x3mm_P0.65mm)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name SDA) 
+          (type BiDi)) 
+        (pin 
+          (num 2) 
+          (name SCL) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name Alert) 
+          (type unspc)) 
+        (pin 
+          (num 4) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 5) 
+          (name A2) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name A1) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name A0) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name VDD) 
+          (type power_in)))) 
+    (libpart 
+      (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+      (part Mounting_Hole-Mechanical-rm3100_Pi_Hat_local-rescue) 
+      (footprints 
+        (fp Mounting?Hole*) 
+        (fp Hole*)) 
+      (fields 
+        (field 
+          (name Reference) MK) 
+        (field 
+          (name Value) Mounting_Hole-Mechanical-rm3100_Pi_Hat_local-rescue))) 
+    (libpart 
+      (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+      (part PCA9615DPJ-Interface) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) PCA9615DPJ-Interface) 
+        (field 
+          (name Footprint) basic-rm3100:TSSOP-10_3x3mm_P0.5mm)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VDDA) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name SDA) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name EN) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name SCL) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name GND) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name DSCL-) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name DSCL+) 
+          (type BiDi)) 
+        (pin 
+          (num 8) 
+          (name DSDA+) 
+          (type input)) 
+        (pin 
+          (num 9) 
+          (name DSDA-) 
+          (type input)) 
+        (pin 
+          (num 10) 
+          (name VDDB) 
+          (type input)))) 
+    (libpart 
+      (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+      (part PNI-RM3100mag-Interface) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) PNI-RM3100mag-Interface) 
+        (field 
+          (name Footprint) basic-rm3100:PinSocket_PNI_RM3100)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name SCL/SCK) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name SA1/S0) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name SDA/SI) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name SA0/SSN) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name DRDY) 
+          (type output)) 
+        (pin 
+          (num 6) 
+          (name NC) 
+          (type NotConnected)) 
+        (pin 
+          (num 7) 
+          (name AVSS) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name NC) 
+          (type NotConnected)) 
+        (pin 
+          (num 9) 
+          (name NC) 
+          (type NotConnected)) 
+        (pin 
+          (num 10) 
+          (name I2C_EN) 
+          (type passive)) 
+        (pin 
+          (num 11) 
+          (name NC) 
+          (type NotConnected)) 
+        (pin 
+          (num 12) 
+          (name DVDD) 
+          (type passive)) 
+        (pin 
+          (num 13) 
+          (name AVDD) 
+          (type passive)) 
+        (pin 
+          (num 14) 
+          (name DVSS) 
+          (type passive)))) 
+    (libpart 
+      (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+      (part SolderJumper_2_Bridged-Jumper) 
+      (footprints 
+        (fp SolderJumper*Bridged*)) 
+      (fields 
+        (field 
+          (name Reference) JP) 
+        (field 
+          (name Value) SolderJumper_2_Bridged-Jumper)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name B) 
+          (type passive)))) 
+    (libpart 
+      (lib rm3100_Pi_Hat_remote_minimal-rescue) 
+      (part SolderJumper_3_Bridged123-Jumper) 
+      (footprints 
+        (fp SolderJumper*Bridged123*)) 
+      (fields 
+        (field 
+          (name Reference) JP) 
+        (field 
+          (name Value) SolderJumper_3_Bridged123-Jumper)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name C) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name B) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical AP2210N-3.0TRG1) 
+      (uri /home/dave/Projects/SWx/Hardware/rm3100_Pi_Hat_remote_minimal/AP2210N-3.0TRG1.lib)) 
+    (library 
+      (logical Connector) 
+      (uri /usr/share/kicad/library/Connector.lib)) 
+    (library 
+      (logical Connector_Generic) 
+      (uri /usr/share/kicad/library/Connector_Generic.lib)) 
+    (library 
+      (logical Device) 
+      (uri /usr/share/kicad/library/Device.lib)) 
+    (library 
+      (logical Diode) 
+      (uri /usr/share/kicad/library/Diode.lib)) 
+    (library 
+      (logical Jumper) 
+      (uri /home/dave/Projects/SWx/Hardware/rm3100_Pi_Hat_remote_minimal/Jumper.lib)) 
+    (library 
+      (logical Regulator_Linear) 
+      (uri /usr/share/kicad/library/Regulator_Linear.lib)) 
+    (library 
+      (logical Sensor_Temp_Lib) 
+      (uri /home/dave/Projects/SWx/Hardware/rm3100_Pi_Hat_remote_minimal/Sensor_Temperature.lib)) 
+    (library 
+      (logical rm3100_Pi_Hat_remote_minimal-rescue) 
+      (uri /home/dave/Projects/SWx/Hardware/rm3100_Pi_Hat_remote_minimal/rm3100_Pi_Hat_remote_minimal-rescue.lib))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(C9-Pad1)") 
+      (node 
+        (ref U4) 
+        (pin 2)) 
+      (node 
+        (ref C9) 
+        (pin 1)) 
+      (node 
+        (ref JP7) 
+        (pin 1))) 
+    (net 
+      (code 2) 
+      (name "Net-(U3-Pad5)") 
+      (node 
+        (ref U3) 
+        (pin 5))) 
+    (net 
+      (code 3) 
+      (name GND) 
+      (node 
+        (ref JP4) 
+        (pin 2)) 
+      (node 
+        (ref JP10) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 9)) 
+      (node 
+        (ref JP2) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 3)) 
+      (node 
+        (ref U2) 
+        (pin 5)) 
+      (node 
+        (ref J1) 
+        (pin 7)) 
+      (node 
+        (ref J1) 
+        (pin 8)) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref C3) 
+        (pin 1)) 
+      (node 
+        (ref C2) 
+        (pin 1)) 
+      (node 
+        (ref U5) 
+        (pin 1)) 
+      (node 
+        (ref C11) 
+        (pin 2)) 
+      (node 
+        (ref C10) 
+        (pin 2)) 
+      (node 
+        (ref C4) 
+        (pin 2)) 
+      (node 
+        (ref C5) 
+        (pin 2)) 
+      (node 
+        (ref C6) 
+        (pin 2)) 
+      (node 
+        (ref C7) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 4)) 
+      (node 
+        (ref U3) 
+        (pin 14)) 
+      (node 
+        (ref U3) 
+        (pin 7)) 
+      (node 
+        (ref C8) 
+        (pin 2)) 
+      (node 
+        (ref C9) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin 1)) 
+      (node 
+        (ref JP3) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 1)) 
+      (node 
+        (ref JP5) 
+        (pin 2))) 
+    (net 
+      (code 4) 
+      (name "Net-(JP4-Pad1)") 
+      (node 
+        (ref JP4) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 4)) 
+      (node 
+        (ref R12) 
+        (pin 2))) 
+    (net 
+      (code 5) 
+      (name "Net-(JP5-Pad1)") 
+      (node 
+        (ref JP5) 
+        (pin 1)) 
+      (node 
+        (ref R13) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 2))) 
+    (net 
+      (code 6) 
+      (name "Net-(C8-Pad1)") 
+      (node 
+        (ref C8) 
+        (pin 1)) 
+      (node 
+        (ref JP6) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 3))) 
+    (net 
+      (code 7) 
+      (name "Net-(U3-Pad6)") 
+      (node 
+        (ref U3) 
+        (pin 6))) 
+    (net 
+      (code 8) 
+      (name SDA) 
+      (node 
+        (ref U3) 
+        (pin 3)) 
+      (node 
+        (ref J4) 
+        (pin 2)) 
+      (node 
+        (ref R10) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin 3))) 
+    (net 
+      (code 9) 
+      (name "Net-(U3-Pad11)") 
+      (node 
+        (ref U3) 
+        (pin 11))) 
+    (net 
+      (code 10) 
+      (name SCL) 
+      (node 
+        (ref U1) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin 4)) 
+      (node 
+        (ref J4) 
+        (pin 3)) 
+      (node 
+        (ref J6) 
+        (pin 4)) 
+      (node 
+        (ref U3) 
+        (pin 1)) 
+      (node 
+        (ref R11) 
+        (pin 2))) 
+    (net 
+      (code 11) 
+      (name "Net-(U3-Pad8)") 
+      (node 
+        (ref U3) 
+        (pin 8))) 
+    (net 
+      (code 12) 
+      (name "Net-(JP3-Pad1)") 
+      (node 
+        (ref JP3) 
+        (pin 1)) 
+      (node 
+        (ref R9) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 5))) 
+    (net 
+      (code 13) 
+      (name "Net-(U1-Pad3)") 
+      (node 
+        (ref U1) 
+        (pin 3))) 
+    (net 
+      (code 14) 
+      (name "Net-(U3-Pad9)") 
+      (node 
+        (ref U3) 
+        (pin 9))) 
+    (net 
+      (code 15) 
+      (name DSCL+) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 7)) 
+      (node 
+        (ref R2) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 7))) 
+    (net 
+      (code 16) 
+      (name DSCL-) 
+      (node 
+        (ref R3) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 6)) 
+      (node 
+        (ref U2) 
+        (pin 6)) 
+      (node 
+        (ref R2) 
+        (pin 2))) 
+    (net 
+      (code 17) 
+      (name DSDA+) 
+      (node 
+        (ref R4) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin 8)) 
+      (node 
+        (ref J1) 
+        (pin 3)) 
+      (node 
+        (ref R5) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 5))) 
+    (net 
+      (code 18) 
+      (name DSDA-) 
+      (node 
+        (ref R6) 
+        (pin 1)) 
+      (node 
+        (ref R5) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin 9)) 
+      (node 
+        (ref J1) 
+        (pin 6)) 
+      (node 
+        (ref J4) 
+        (pin 4))) 
+    (net 
+      (code 19) 
+      (name "Net-(J1-PadSH)") 
+      (node 
+        (ref JP10) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin SH))) 
+    (net 
+      (code 20) 
+      (name "Net-(C11-Pad1)") 
+      (node 
+        (ref U5) 
+        (pin 2)) 
+      (node 
+        (ref C11) 
+        (pin 1)) 
+      (node 
+        (ref JP9) 
+        (pin 1))) 
+    (net 
+      (code 21) 
+      (name "Net-(C10-Pad1)") 
+      (node 
+        (ref U5) 
+        (pin 3)) 
+      (node 
+        (ref JP8) 
+        (pin 2)) 
+      (node 
+        (ref C10) 
+        (pin 1))) 
+    (net 
+      (code 22) 
+      (name "Net-(C1-Pad1)") 
+      (node 
+        (ref U2) 
+        (pin 3)) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 2))) 
+    (net 
+      (code 23) 
+      (name "Net-(JP2-Pad1)") 
+      (node 
+        (ref JP2) 
+        (pin 1)) 
+      (node 
+        (ref R7) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 6))) 
+    (net 
+      (code 24) 
+      (name VDDA) 
+      (node 
+        (ref U3) 
+        (pin 12)) 
+      (node 
+        (ref U1) 
+        (pin 8)) 
+      (node 
+        (ref JP1) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 10)) 
+      (node 
+        (ref U3) 
+        (pin 13)) 
+      (node 
+        (ref R12) 
+        (pin 1)) 
+      (node 
+        (ref R8) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 1)) 
+      (node 
+        (ref JP7) 
+        (pin 2)) 
+      (node 
+        (ref JP9) 
+        (pin 2)) 
+      (node 
+        (ref R13) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 1)) 
+      (node 
+        (ref C5) 
+        (pin 1)) 
+      (node 
+        (ref R7) 
+        (pin 1)) 
+      (node 
+        (ref C4) 
+        (pin 1)) 
+      (node 
+        (ref J6) 
+        (pin 2)) 
+      (node 
+        (ref R9) 
+        (pin 1))) 
+    (net 
+      (code 25) 
+      (name "Net-(R3-Pad2)") 
+      (node 
+        (ref R3) 
+        (pin 2))) 
+    (net 
+      (code 26) 
+      (name "Net-(C2-Pad2)") 
+      (node 
+        (ref F1) 
+        (pin 2)) 
+      (node 
+        (ref F1) 
+        (pin 1)) 
+      (node 
+        (ref C3) 
+        (pin 2)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin 10)) 
+      (node 
+        (ref FB1) 
+        (pin 2))) 
+    (net 
+      (code 27) 
+      (name "Net-(JP1-Pad3)") 
+      (node 
+        (ref R11) 
+        (pin 1)) 
+      (node 
+        (ref JP1) 
+        (pin 3))) 
+    (net 
+      (code 28) 
+      (name "Net-(JP1-Pad1)") 
+      (node 
+        (ref R10) 
+        (pin 1)) 
+      (node 
+        (ref JP1) 
+        (pin 1))) 
+    (net 
+      (code 29) 
+      (name "Net-(J3-Pad1)") 
+      (node 
+        (ref J3) 
+        (pin 1))) 
+    (net 
+      (code 30) 
+      (name "Net-(J3-Pad2)") 
+      (node 
+        (ref U1) 
+        (pin 7)) 
+      (node 
+        (ref R8) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 2))) 
+    (net 
+      (code 31) 
+      (name "Net-(R6-Pad2)") 
+      (node 
+        (ref R6) 
+        (pin 2))) 
+    (net 
+      (code 32) 
+      (name VDDB) 
+      (node 
+        (ref J1) 
+        (pin 5)) 
+      (node 
+        (ref J4) 
+        (pin 8)) 
+      (node 
+        (ref FB1) 
+        (pin 1)) 
+      (node 
+        (ref C6) 
+        (pin 1)) 
+      (node 
+        (ref JP6) 
+        (pin 1)) 
+      (node 
+        (ref JP8) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 4)) 
+      (node 
+        (ref C7) 
+        (pin 1)) 
+      (node 
+        (ref R1) 
+        (pin 1)) 
+      (node 
+        (ref R4) 
+        (pin 1)))))
